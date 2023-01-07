@@ -24,7 +24,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: '';
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -1162,51 +1162,11 @@ img {
     padding-right: 100px;
   }
 
-  /* bug */
-  /* .contact__inputs{
-   grid-template-columns: repeat(2, 1fr);
-  } */
 }
 
-/* .theme-btn-desktop {
-  position: relative;
-  background: var(--background-secondary);
-  color: var(--white);
-  width:  52px;
-  height: 26px;
-  display:         flex;
-  justify-content: center;
-  align-items:     center;
-  gap: 10px;
-  border-radius: 100px;
-
-}
-
-.theme-btn-desktop.light {
-  background: linear-gradient(45deg, hsl(7, 100%, 71%), hsl(46, 100%, 65%));
-}
-
-.theme-btn-desktop.dark {
-  background: linear-gradient(45deg, hsl(225, 100%, 60%), hsl(296, 80%, 40%));
-}
-
-.theme-btn-desktop::before {
-  content: '';
-  position: absolute;
-  background: var(--white);
-  width:  21px;
-  height: 21px;
-  border-radius: 30px;
-  top: 50%;
-  left: 3px;
-  transform: translateY(-50%);
-  box-shadow: 0 2px 10px -2px hsla(0, 0%, 0%, 0.05);
-  z-index: 2;
-}
-
-.theme-btn-desktop.dark::before { left: calc(100% - 24px); } */
 
 
+/* CSS Login  , SignUp */
 .content {
   display: flex;
 }
