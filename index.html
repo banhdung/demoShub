@@ -1,0 +1,511 @@
+<!-- Note bug:
+ScrollUp (html , css ,js ?)
+contact__inputs(responsive laptop email , name repeat ) responsive desktop
+project in mind desktop+tablet 
+footer desktop
+toogle mobile 
+skills note responsive desktop
+dark icon desktop + tablet ( fix 1/1) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Icon -->
+    <link rel="icon" href="assets/img/icon.png">
+
+    <title>Shub VietNam</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Shub VietNam</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid" style="padding-right : 3rem; align-items: center;">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>Giới thiệu
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>Tính năng
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+
+                        <a href="login.html" class="nav__link button--signin">Đăng nhập
+                            <i class="uil uil-briefcase-alt nav__icon"></i>
+                        </a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link button--signup">
+                            <i class="uil uil-scenery nav__icon"></i>Đăng ký
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Liên hệ
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme chage button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <!-- <a href="" target="_blank" class="home__social-icon">
+                            <i class="uil uil-google-play"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-icon">
+                            <i class="uil uil-apple-alt"></i>
+                        </a> -->
+
+                        <a href="#" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-messenger-alt"></i>
+                        </a>
+
+
+
+                    </div>
+
+                    <div class="home__img">
+                        <img src="/assets/img/about.avif" alt="">
+
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Shub Romm</h1>
+                        <h3 class="home__subtitle">Một cách hiệu quả để quản lý lớp học</h3>
+                        <p class="home__description button--data"><i class="uil uil-cloud-upload"
+                                style="color : blue ; padding-right: 10px;"></i>Cung cấp tài nguyên cho học sinh</p>
+                        <p class="home__description button--data"><i class="uil uil-desktop data--icon"
+                                style="color : orange ; padding-right: 10px;"></i>Khai thác học liệu</p>
+                        <p class="home__description button--data"><i class="uil uil-channel data--icon"
+                                style="color : green ; padding-right: 10px;"></i>Giao bài tập</p>
+                        <a href="#" class="button button--flex">Tham gia ngay
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home_scroll-name">Kéo xuống</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">Giới thiệu</h2>
+            <span class="section__subtitle">SHub đồng hành cùng giáo dục cả nước</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/Introduce.avif" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Có mặt trên 63 tỉnh thành, với hơn 3.000.000 người dùng mỗi ngày cho việc dạy và học, SHub trở
+                        thành cộng đồng giáo dục trực tuyến, môi trường học tập, giảng dạy và chia sẻ rộng lớn.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info--title">3 triệu +</span>
+                            <span class="about__info--name">Học sinh<br>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="about__info--title">100K +</span>
+                            <span class="about__info--name">Giáo viên<br>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="about__info--title">2K +</span>
+                            <span class="about__info--name">Trường học<br>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a target="_blank" href="#" class="button button--flex">
+                            Bắt đầu<i style="padding-left : 5px ; font-size: 1.25rem;" class="uil uil-rocket"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Shub mang đến cho bạn</h2>
+            <span class="section__subtitle">Tất cả các công cụ dạy hiện đại</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/tinhang.avif" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Tạo và quản lý bài tập, kiểm tra bằng AI</h3>
+                            <p class="portfolio__description">Không cần soạn thảo các công thức phức tạp, mọi thứ được
+                                nhận diện hoàn toàn tự động với SHub Classroom. Bên cạnh đó, bạn còn được cung cấp đa
+                                dạng các tùy chỉnh chuyên sâu theo từng nhu cầu sử dụng.</p>
+                            <a target="_blank" href="#" class="button button--flex button--small portfolio__button">
+                                Dùng thử miễn phí
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/tinhnang2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Lớp học với độ tùy biến cao</h3>
+                            <p class="portfolio__description">Lớp học trên SHub Classroom có thể dùng cho nhiều mục đích
+                                khác nhau như: Lớp học chính khóa, lớp học thêm, lớp ngoại ngữ, kỹ năng chuyên môn,
+                                nghiệp vụ, lớp học trực tuyến, livestream … </p>
+                            <a target="_blank" href="#" class="button button--flex button--small portfolio__button">
+                                Dùng thử miễn phí
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/tinhang3.JPEG" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Lưu trữ học liệu không giới hạn</h3>
+                            <p class="portfolio__description">Tài nguyên của bạn được lưu trữ và sắp xếp một cách tiện
+                                lợi, bạn có thể chia sẻ cho học sinh và sử dụng lại các tài nguyên này cho những lớp học
+                                kế tiếp.</p>
+                            <a target="_blank" href="#" class="button button--flex button--small portfolio__button">
+                                Dùng thử miễn phí
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- add arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!--add pagination  -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Nâng cấp tài khoản Plus để không giới hạn tính năng</h2>
+                        <p class="project__description">Giảm 25% hóa đơn cho ngày hôm nay</p>
+                        <a href="#" class="button button--flex button--white">
+                            Nâng cấp Shub+ ngay
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+                    <img src="assets/img/plus.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Các học sinh nói gì về Shub</h2>
+            <span class="section__subtitle">90% học sinh sử dụng Shub cho biết họ đã cải thiện được điểm số.</span>
+            <div class="testimonial__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--==================== TESTIMONIAL  1====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/hocsinh1.png" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Nguyễn Lê Mai</h3>
+                                    <span class="testimonial__client">FBT University</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">
+                            “Tất cả bạn bè của chúng tôi đều sử dụng Shub. Đây là một cách học thú vị và chúng tôi thấy
+                            tự tin hơn khi chuẩn bị cho kỳ thi giữa kỳ và cuối kỳ."
+                        </p>
+                    </div>
+
+
+
+                    <!--==================== TESTIMONIAL  2====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/hocsinh2.png" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Tony Ducanh</h3>
+                                    <span class="testimonial__client">English Pododo</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">
+                            Mình thấy phần mềm dễ dùng, mình sẽ vẫn dùng và chia sẻ với mọi người. Chúc các bạn phát
+                            triển rộng rãi phần mềm của mình và cải tiến phần mềm ngày càng tích hợp nhiều tính năng hơn
+                            nữa nhé! </p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL  3====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/hocsinh4.png" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Lê Phi Phi</h3>
+                                    <span class="testimonial__client">Sinh viên NEU</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">
+                            “Shub đã tiếp sức cho thành công của tôi từ khi còn học trung học. Những bài quiz có thể
+                            dùng ngay khi đang di chuyển đang hỗ trợ đắc lực cho tôi ở đại học”.
+                        </p>
+                    </div>
+                </div>
+                <!-- add pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Liên hệ</h2>
+            <span class="section__subtitle">Hỗ trợ về Shub</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Số điện thoại</h3>
+                            <span class="contact__subtitle">0912345678</span>
+
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope-heart contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">Shub@gmail.com</span>
+
+                        </div>
+                    </div>
+
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Địa chỉ</h3>
+                            <span class="contact__subtitle">Khu nhà xe đại học FBT, Hà Nội</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Tên của bạn</label>
+                            <input name="from_name" type="text" class="contact__input" id="contact-name">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input name="user_email" type="email" class="contact__input" id="contact-email">
+                        </div>
+
+
+                        <!-- <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div> -->
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nội dung</label>
+                            <textarea name="message" id="contact-message" class="contact__input" id="" cols="0"
+                                rows="7"></textarea>
+                            <!-- <input name="message" class="contact__input" id="contact-message"></inpit> -->
+                        </div>
+                        <p class="contact__mess" id="contact-mess"></p>
+
+
+                        <div>
+                            <button class="button button--flex" style="border : none ; font-size: medium ;">
+                                Gửi email
+                                <i class="uil uil-envelope-send button__icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div class="footer__data">
+                    <h1 class="footer__title">Shub</h1>
+                    <span class="footer__subtitle">Phần mềm quản lý học sinh</span>
+                </div>
+                <ul class="footer__links">
+                    <!-- <li>
+                        <a href="#services" class="footer__link">
+                            Services
+                        </a>
+                    </li> -->
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">
+                            Liên hệ với chúng tôi
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="#" class="footer__social" target="_blank">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer__social" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+
+                </div>
+            </div>
+
+            <p class="footer__copy">Shub 2022</p>
+        </div>
+    </footer>
+
+    <!-- <button class="theme-btn theme-btn-desktop light">
+        <i class="uil uil-moonset moon"></i>
+        <i class="uil uil-sun sun"></i>
+      </button> -->
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== EMAIL JS ====================-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
