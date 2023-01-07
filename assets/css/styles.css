@@ -1510,7 +1510,12 @@ img {
 
 .content--left {
   width: 50%;
-  padding: 200px 30px 100px 100px;
+  padding: 200px 30px 100px 200px;
+}
+
+.content--left--signup {
+  width: 50%;
+  padding: 100px 30px 100px 200px;
 }
 
 .content--right {
@@ -1538,20 +1543,20 @@ img {
   padding-left: 310px;
   text-decoration: none;
   font-size: var(--small-font-size);
+  
 
 
 }
 
 .btn--signin {
-  width: 70%;
-  padding-bottom: 0px;
+  width: 50%;
+  margin-left: 70px;
   border-radius: 10px !important;
 }
 
 .btn--signup {
   text-decoration: none;
 }
-
 .signin--account {
   padding: 10px 0px 0px 100px;
 }

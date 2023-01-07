@@ -30,7 +30,7 @@
 <body>
 
     <div class="content">
-      <div class="content--left">
+      <div class="content--left--signup">
         <div class="content--left--title">SignUp</div>
         <form action="" class="signin">
             <label>Name</label><br/>
@@ -44,10 +44,25 @@
         
           <label>Password</label><br/>
           <input class="input--password" type="password"/><br/>  
+          <label>Confirm Password</label><br/>
+          <input class="input--password" type="password"/><br/>  
           <div class="d-grid gap-2">
-            <button class="btn btn-primary btn--signin" type="button">Sign in</button>      
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                I'm a teacher
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                I'm a student
+              </label>
+            </div>
+            <button class="btn btn-primary btn--signin" type="button">Sign up</button>      
           </div>
         </form>
+        <div class="signin--account">Have a account ?<a class="btn--signup" href="login.html"> Signin</a></div>
       </div>
       <div class="content--right">
         <img src="./assets/img/signin.svg" alt="">
