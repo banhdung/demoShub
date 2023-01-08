@@ -1543,7 +1543,7 @@ img {
   padding-left: 310px;
   text-decoration: none;
   font-size: var(--small-font-size);
-  
+
 
 
 }
@@ -1557,6 +1557,7 @@ img {
 .btn--signup {
   text-decoration: none;
 }
+
 .signin--account {
   padding: 10px 0px 0px 100px;
 }
