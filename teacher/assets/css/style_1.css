@@ -3,7 +3,20 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
  */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); 
+ .sidebar--text{
+  color : rgb(32, 34, 39) !important ;
+  font-family: sans-serif ;
+}
+
+.sidebar--text:hover{
+  color : hsl(230, 69%, 61%) !important ;
+}
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8209,7 +8222,7 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 270px;
   max-width: 270px;
-  background-color: #1e88e5;
+  background-color: rgb(255, 255, 255);
   /* background: #494ca2; */
   color: #fff;
   -webkit-transition: all 0.3s;
@@ -8244,7 +8257,7 @@ h1, h2, h3, h4, h5,
         color: #fff; }
     #sidebar ul li.active > a {
       background: transparent;
-      color: #fff; }
+      color: blue; }
   @media (max-width: 991.98px) {
     #sidebar {
       margin-left: -270px; }
